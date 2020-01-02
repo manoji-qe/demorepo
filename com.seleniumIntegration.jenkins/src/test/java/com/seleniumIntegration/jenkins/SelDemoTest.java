@@ -8,6 +8,7 @@ public class SelDemoTest {
 	public void printSelenium()
 	{
 		System.out.println("This is a selenium demo");
+		System.out.println("selenium tools integration");
 	}
 
 }
