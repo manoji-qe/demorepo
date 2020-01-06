@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class SelDemoTest {
-	//*[@id="gb"]/div[2]/div[3]/div[1]/div/div[1]/a*//
+	
 	
 	WebDriver driver;
 	
@@ -22,7 +22,7 @@ public class SelDemoTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.get("https:\\www.gmail.com");
-		//driver.findElement(By.xpath("//*[contains(text(),'Gmail']"));
+		
 	}
 	@Test
 	public void printSelenium()
