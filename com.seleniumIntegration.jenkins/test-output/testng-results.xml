@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10455" started-at="2020-01-06T17:06:22Z" finished-at="2020-01-06T17:06:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10455" started-at="2020-01-06T17:06:22Z" finished-at="2020-01-06T17:06:32Z">
+      <class name="com.seleniumIntegration.jenkins.SelDemoTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.seleniumIntegration.jenkins.SelDemoTest@5e5792a0]" name="startBrowser" is-config="true" duration-ms="8278" started-at="2020-01-06T22:36:22Z" finished-at="2020-01-06T22:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="printSelenium()[pri:0, instance:com.seleniumIntegration.jenkins.SelDemoTest@5e5792a0]" name="printSelenium" duration-ms="9" started-at="2020-01-06T22:36:30Z" finished-at="2020-01-06T22:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printSelenium -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.seleniumIntegration.jenkins.SelDemoTest@5e5792a0]" name="tearDown" is-config="true" duration-ms="2125" started-at="2020-01-06T22:36:30Z" finished-at="2020-01-06T22:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.seleniumIntegration.jenkins.SelDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
